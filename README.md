@@ -1,4 +1,2 @@
 # Scraper
-App para scrapear precios
-
-Ejemplo de Booking
+Apps para scrapear web sites
