@@ -14,10 +14,10 @@ if '__main__' == __name__:
     
     for job in results:
         try:
-            titleEleemnt = job.find('a', attrs={"data-automation": "jobTitle"})
-            title = titleEleemnt.get_text()
+            titleElement = job.find('a', attrs={"data-automation": "jobTitle"})
+            title = titleElement.get_text()
             company = job.find('a', attrs={'data-automation': 'jobCompany'}).get_text()
-            jobLink = 'https://www.seek.co.nz' + titleEleemnt['href']
+            jobLink = 'https://www.seek.co.nz' + titleElement['href']
             salary = job.find('span', attrs={"data-automation": "jobSalary"})
             salary = salary.get_text() if salary else 'N/A'
 
