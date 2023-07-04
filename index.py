@@ -4,7 +4,7 @@ import mail
 import time
 import re
 
-# BOOKING EXAMPLE
+# BOOKING EXAMPLE 
 url = 'https://www.booking.com/hotel/hu/city-center-historic-jewish-quarter.es.html?aid=356980&label=gog235jc-1FCAMYkwQoZzjxAkgKWANoRogBAZgBCrgBGMgBDNgBAegBAfgBAogCAagCBLgC9NjKngbAAgHSAiRkYjc0Y2E5Ny1iODkxLTQ5ODAtOTk2MS1lMTljOWQ5ZTllMTXYAgXgAgE&sid=3ecb85af54446a94a4e966417939cf16&all_sr_blocks=881525201_357422493_8_0_0;checkin=2023-04-07;checkout=2023-04-09;dest_id=-850553;dest_type=city;dist=0;group_adults=8;group_children=0;hapos=5;highlighted_blocks=881525201_357422493_8_0_0;hpos=5;matching_block_id=881525201_357422493_8_0_0;no_rooms=1;req_adults=8;req_children=0;room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=881525201_357422493_8_0_0__56033;srepoch=1674751123;srpvid=295a7509cc290006;type=total;ucfs=1&#hotelTmpl'
 
 headers = {
