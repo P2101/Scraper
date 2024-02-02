@@ -1,5 +1,6 @@
 from selenium import webdriver
 
+# Obtener el contenido de scripts que se cargan con JS
 url = 'https://www.guess.mx/'
 proxy_address = '38.7.109.253' # proxy from MX
 proxy_port = '8080'  
