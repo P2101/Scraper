@@ -24,6 +24,6 @@ driver.get('https://www.airbnb.com/')
 
 sleep(3)
 
-titulos_anuncios = driver.find_elements(By.XPATH, '//div[@data-testid="listing-card-title"]')
+titulos_anuncios = driver.find_elements(By.XPATH, '//div[@data-testid="listing-card-title"]') # Mirar clase
 for titulo in titulos_anuncios:
     print(titulo.text)
